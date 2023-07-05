@@ -160,4 +160,12 @@ $('#ad_banner').owlCarousel({
             items:1
         }
     }
-})
+});
+
+
+
+
+$('.search_box_btn').on('click',function(e){
+    e.preventDefault();
+    $(".search_bar_box").slideToggle();
+});
